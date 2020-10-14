@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="49dp"
+        android:layout_height="38dp"
+        android:layout_alignStart="@+id/imageButtonOld"
+        android:layout_alignTop="@+id/imageButtonOld"
+        android:layout_alignEnd="@+id/imageButtonOld"
+        android:layout_alignBottom="@+id/imageButtonOld"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="-34dp"
+        android:text="גברילי" />
+
+    <ImageButton
+        android:id="@+id/imageButtonOld"
+        android:layout_width="310dp"
+        android:layout_height="215dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="40dp"
+        android:scaleType="fitXY"
+        tools:srcCompat="@drawable/yachtzapp_icon" />
+
+    <ImageButton
+        android:id="@+id/imageButtonNew"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="48dp"
+
+        android:layout_marginBottom="11dp"
+        android:cropToPadding="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/tmaps" />
+
+    <TextView
+        android:layout_width="51dp"
+        android:layout_height="34dp"
+        android:layout_alignStart="@+id/imageButtonNew"
+        android:layout_alignEnd="@+id/imageButtonNew"
+        android:layout_alignBottom="@+id/imageButtonNew"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="17dp"
+        android:text="TMAPS" />
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageButtonOld"
+        android:layout_alignEnd="@+id/imageButtonOld"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="204dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="498dp"
+        android:text="@string/OLD" />
+
+    <ImageButton
+        android:id="@+id/imageButtonOld"
+        android:layout_width="167dp"
+        android:layout_height="107dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginBottom="0dp"
+        app:srcCompat="@drawable/yachtzapp_icon"
+        tools:srcCompat="@drawable/yachtzapp_icon"
+        android:contentDescription="@string/todo" />
+
+    <ImageButton
+        android:id="@+id/imageButtonNew"
+        android:layout_width="167dp"
+        android:layout_height="107dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="22dp"
+        app:srcCompat="@drawable/tmapssmaller"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="29dp"
+        android:layout_alignStart="@+id/imageButtonNew"
+        android:layout_alignEnd="@+id/imageButtonNew"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="204dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="488dp"
+        android:text="@string/tmaps" />
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My First Button</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="button">Button</string>
+    <string name="todo">TODO</string>
+    <string name="כיול">כיול</string>
+    <string name="כנון">כנון</string>
+    <string name="נוות">נוות</string>
+    <string name="back">Back</string>
+    <string name="הצפן">הצפן</string>
+    <string name="עדכן">עדכן</string>
+    <string name="בדוק">בדוק</string>
+    <string name="tmaps">TMAPS</string>
+    <string name="OLD">גברילי</string>
+
+</resources>
